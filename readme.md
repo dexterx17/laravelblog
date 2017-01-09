@@ -4,9 +4,15 @@
 
 ## Instalación
 
+
 git clone https://github.com/dexterx17/laravelblog.git destino
+
 cd destino
+
 composer install
+
 configurar .env
+
 php artisan migrate
+
 php artisan db:seed
